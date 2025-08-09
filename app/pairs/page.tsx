@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import type { Pair } from '@/lib/types';
+import ShareCard from '@/components/ShareCard';
 
 function PairCard({ p }: { p: Pair }) {
   return (
@@ -54,6 +55,12 @@ export default function PairsPage() {
     }
   }
 
+  function caption(p: Pair) {
+    const site = 'emotion-dictionary-mvp.vercel.app';
+    const tags = '#emotions #psychology #learning #wordoftheday';
+    return `${p.left} vs ${p.right}\n${p.rule}\n\nMore pairs: ${site}\n${tags}`;
+  }
+
   return (
     <main className="space-y-4">
       <div className="flex items-center justify-between">
@@ -72,9 +79,30 @@ export default function PairsPage() {
       </div>
 
       {randomPair && (
-        <section>
-          <h2 className="h2 mb-2">Random pick</h2>
+        <section className="space-y-3">
+          <h2 className="h2">Random pick</h2>
           <PairCard p={randomPair} />
+
+          <div className="card p-4 space-y-2">
+            <div className="text-sm text-gray-600">Caption</div>
+            <textarea
+              className="input"
+              rows={4}
+              value={caption(randomPair)}
+              onChange={() => {}}
+              readOnly
+            />
+            <div className="flex gap-2">
+              <button
+                className="btn-ghost"
+                onClick={() => navigator.clipboard.writeText(caption(randomPair))}
+              >
+                Copy caption
+              </button>
+            </div>
+          </div>
+
+          <ShareCard p={randomPair} />
         </section>
       )}
 
