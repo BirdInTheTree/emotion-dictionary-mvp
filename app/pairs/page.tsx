@@ -30,15 +30,29 @@ function PairCard({ p }: { p: Pair }) {
 export default function PairsPage() {
   const [pairs, setPairs] = useState<Pair[]>([]);
   const [q, setQ] = useState('');
+  const [randomPair, setRandomPair] = useState<Pair | null>(null);
 
   useEffect(() => {
-    fetch('/api/pairs').then(r => r.json()).then(setPairs);
+    fetch('/api/pairs')
+      .then(r => r.json())
+      .then((data: Pair[]) => {
+        setPairs(data);
+        if (data.length) {
+          setRandomPair(data[Math.floor(Math.random() * data.length)]);
+        }
+      });
   }, []);
 
   const filtered = pairs.filter(p => {
     const t = `${p.left} ${p.right} ${p.rule}`.toLowerCase();
     return t.includes(q.toLowerCase());
   });
+
+  function pickRandom() {
+    if (pairs.length) {
+      setRandomPair(pairs[Math.floor(Math.random() * pairs.length)]);
+    }
+  }
 
   return (
     <main className="space-y-4">
@@ -47,14 +61,22 @@ export default function PairsPage() {
         <a className="btn-ghost" href="/">Back to Free</a>
       </div>
 
-      <div className="card p-4">
+      <div className="card p-4 space-y-3">
         <input
           className="input"
           placeholder="Search pairs… (e.g., fear, envy)"
           value={q}
           onChange={e => setQ(e.target.value)}
         />
+        <button className="btn" onClick={pickRandom}>Random Pair</button>
       </div>
+
+      {randomPair && (
+        <section>
+          <h2 className="h2 mb-2">Random pick</h2>
+          <PairCard p={randomPair} />
+        </section>
+      )}
 
       <div className="grid gap-4">
         {filtered.map(p => <PairCard key={p.id} p={p} />)}
