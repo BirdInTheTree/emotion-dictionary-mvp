@@ -1,0 +1,245 @@
+[
+  {
+    "id": "awe.n.01",
+    "lemma": "awe",
+    "pos": "noun",
+    "definition": "a feeling of reverential respect mixed with fear or wonder",
+    "examples": [
+      "They gazed at the aurora in awe."
+    ],
+    "synonyms": [
+      "wonder",
+      "amazement"
+    ],
+    "antonyms": [
+      "indifference"
+    ],
+    "affect_tags": [
+      "awe",
+      "positive",
+      "surprise"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "fear.n.01",
+    "lemma": "fear",
+    "pos": "noun",
+    "definition": "an unpleasant emotion caused by the belief that someone or something is dangerous",
+    "examples": [
+      "She froze in fear when the dog barked."
+    ],
+    "synonyms": [
+      "terror",
+      "fright"
+    ],
+    "antonyms": [
+      "calm",
+      "courage"
+    ],
+    "affect_tags": [
+      "fear",
+      "negative"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "anxiety.n.01",
+    "lemma": "anxiety",
+    "pos": "noun",
+    "definition": "a feeling of worry, nervousness, or unease about an imminent event or something with an uncertain outcome",
+    "examples": [
+      "He felt anxiety before the interview."
+    ],
+    "synonyms": [
+      "uneasiness",
+      "nervousness"
+    ],
+    "antonyms": [
+      "calmness",
+      "ease"
+    ],
+    "affect_tags": [
+      "fear",
+      "anxiety",
+      "negative"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "jealousy.n.01",
+    "lemma": "jealousy",
+    "pos": "noun",
+    "definition": "fear of losing something one possesses to a rival",
+    "examples": [
+      "A flash of jealousy crossed his face."
+    ],
+    "synonyms": [
+      "envy"
+    ],
+    "antonyms": [
+      "trust",
+      "security"
+    ],
+    "affect_tags": [
+      "jealousy",
+      "negative"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "envy.n.01",
+    "lemma": "envy",
+    "pos": "noun",
+    "definition": "a desire to have a quality, possession, or other desirable attribute belonging to someone else",
+    "examples": [
+      "She looked with envy at the car."
+    ],
+    "synonyms": [
+      "covetousness"
+    ],
+    "antonyms": [
+      "contentment"
+    ],
+    "affect_tags": [
+      "envy",
+      "negative"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "shame.n.01",
+    "lemma": "shame",
+    "pos": "noun",
+    "definition": "a painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior",
+    "examples": [
+      "She lowered her eyes in shame."
+    ],
+    "synonyms": [
+      "embarrassment"
+    ],
+    "antonyms": [
+      "pride"
+    ],
+    "affect_tags": [
+      "shame",
+      "negative"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "guilt.n.01",
+    "lemma": "guilt",
+    "pos": "noun",
+    "definition": "a feeling of having committed wrong or failed in an obligation",
+    "examples": [
+      "Guilt kept him awake at night."
+    ],
+    "synonyms": [
+      "remorse",
+      "contrition"
+    ],
+    "antonyms": [
+      "innocence"
+    ],
+    "affect_tags": [
+      "guilt",
+      "negative"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "pride.n.01",
+    "lemma": "pride",
+    "pos": "noun",
+    "definition": "a feeling of deep pleasure or satisfaction derived from achievements",
+    "examples": [
+      "She felt pride upon receiving the award."
+    ],
+    "synonyms": [
+      "self-respect"
+    ],
+    "antonyms": [
+      "shame",
+      "humility"
+    ],
+    "affect_tags": [
+      "pride",
+      "positive"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "arrogance.n.01",
+    "lemma": "arrogance",
+    "pos": "noun",
+    "definition": "an attitude of superiority manifested in an overbearing manner",
+    "examples": [
+      "His arrogance alienated colleagues."
+    ],
+    "synonyms": [
+      "conceit",
+      "hubris"
+    ],
+    "antonyms": [
+      "humility"
+    ],
+    "affect_tags": [
+      "arrogance",
+      "negative"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  },
+  {
+    "id": "irritation.n.01",
+    "lemma": "irritation",
+    "pos": "noun",
+    "definition": "the state of being annoyed, impatient, or angry",
+    "examples": [
+      "The drilling at 7 a.m. caused irritation."
+    ],
+    "synonyms": [
+      "annoyance",
+      "vexation"
+    ],
+    "antonyms": [
+      "calm"
+    ],
+    "affect_tags": [
+      "anger",
+      "negative",
+      "irritation"
+    ],
+    "sources": [
+      "WordNet-3.1",
+      "WN-Affect-CCBY3"
+    ]
+  }
+]

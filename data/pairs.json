@@ -1,0 +1,206 @@
+[
+  {
+    "id": "fear_vs_anxiety",
+    "left": "fear",
+    "right": "anxiety",
+    "rule": "Fear is a response to a concrete threat now; anxiety is diffuse anticipation of a possible threat.",
+    "script": [
+      "Hook: 'Fear \u2260 Anxiety' \u2014 one-line rule.",
+      "Fear: a dog runs at you.",
+      "Anxiety: walk a dark street expecting someone might appear.",
+      "Split-screen recap."
+    ]
+  },
+  {
+    "id": "jealousy_vs_envy",
+    "left": "jealousy",
+    "right": "envy",
+    "rule": "Jealousy = fear of losing what's yours; Envy = wanting what you don't have.",
+    "script": [
+      "Hold partner; rival nearby.",
+      "Stare at someone's new phone.",
+      "Split recap."
+    ]
+  },
+  {
+    "id": "shame_vs_guilt",
+    "left": "shame",
+    "right": "guilt",
+    "rule": "Shame: 'I am bad'; Guilt: 'I did something bad.'",
+    "script": [
+      "Avoids eye contact.",
+      "Types an apology.",
+      "Split recap."
+    ]
+  },
+  {
+    "id": "pride_vs_arrogance",
+    "left": "pride",
+    "right": "arrogance",
+    "rule": "Pride = joy in achievement; Arrogance = superiority over others.",
+    "script": [
+      "Smiles with diploma.",
+      "Looks down on colleague."
+    ]
+  },
+  {
+    "id": "love_vs_infatuation",
+    "left": "love",
+    "right": "infatuation",
+    "rule": "Love is deep care over time; Infatuation is intense, short-lived crush.",
+    "script": [
+      "Cook soup for sick partner.",
+      "Text all night after first date."
+    ]
+  },
+  {
+    "id": "confidence_vs_overconfidence",
+    "left": "confidence",
+    "right": "overconfidence",
+    "rule": "Confidence is evidence-based; overconfidence ignores risks.",
+    "script": [
+      "Prepared talk.",
+      "Goes on stage unprepared."
+    ]
+  },
+  {
+    "id": "sympathy_vs_empathy",
+    "left": "sympathy",
+    "right": "empathy",
+    "rule": "Sympathy = know they hurt; Empathy = feel with them.",
+    "script": [
+      "'I'm sorry.'",
+      "Hug while they cry."
+    ]
+  },
+  {
+    "id": "relief_vs_contentment",
+    "left": "relief",
+    "right": "contentment",
+    "rule": "Relief = tension drop after stress; Contentment = quiet satisfaction.",
+    "script": [
+      "Exhale after exam.",
+      "Tea by fireplace."
+    ]
+  },
+  {
+    "id": "hope_vs_expectation",
+    "left": "hope",
+    "right": "expectation",
+    "rule": "Hope = wish without guarantees; Expectation = belief it will happen.",
+    "script": [
+      "'Maybe sun tomorrow.'",
+      "'It will be sunny.'"
+    ]
+  },
+  {
+    "id": "admiration_vs_awe",
+    "left": "admiration",
+    "right": "awe",
+    "rule": "Admiration = esteem for a person; Awe = wonder mixed with fear.",
+    "script": [
+      "Applaud musician.",
+      "Stand under a giant waterfall."
+    ]
+  },
+  {
+    "id": "anger_vs_frustration",
+    "left": "anger",
+    "right": "frustration",
+    "rule": "Anger targets someone; frustration is blocked goals.",
+    "script": [
+      "Yell at rule breaker.",
+      "Laptop freezes at deadline."
+    ]
+  },
+  {
+    "id": "surprise_vs_shock",
+    "left": "surprise",
+    "right": "shock",
+    "rule": "Surprise can be pleasant; shock is intense, often negative.",
+    "script": [
+      "Birthday gift.",
+      "Bad accident news."
+    ]
+  },
+  {
+    "id": "curiosity_vs_intrigue",
+    "left": "curiosity",
+    "right": "intrigue",
+    "rule": "Curiosity = desire to know; Intrigue = lured by mystery.",
+    "script": [
+      "Flip encyclopedia.",
+      "Receive anonymous letter."
+    ]
+  },
+  {
+    "id": "regret_vs_remorse",
+    "left": "regret",
+    "right": "remorse",
+    "rule": "Regret = wish it were different; Remorse = deep moral pain.",
+    "script": [
+      "'Should've gone.'",
+      "Sleepless over deed."
+    ]
+  },
+  {
+    "id": "amusement_vs_joy",
+    "left": "amusement",
+    "right": "joy",
+    "rule": "Amusement = light fun; Joy = deep happiness.",
+    "script": [
+      "Laugh at joke.",
+      "Hug after long absence."
+    ]
+  },
+  {
+    "id": "anticipation_vs_suspense",
+    "left": "anticipation",
+    "right": "suspense",
+    "rule": "Anticipation = eager waiting; Suspense = anxious waiting.",
+    "script": [
+      "Train to vacation.",
+      "Doctor's call."
+    ]
+  },
+  {
+    "id": "loneliness_vs_solitude",
+    "left": "loneliness",
+    "right": "solitude",
+    "rule": "Loneliness hurts; solitude is chosen.",
+    "script": [
+      "Alone at crowded caf\u00e9.",
+      "Reading peacefully in park."
+    ]
+  },
+  {
+    "id": "gratitude_vs_appreciation",
+    "left": "gratitude",
+    "right": "appreciation",
+    "rule": "Gratitude = thankful toward someone; Appreciation = valuing qualities.",
+    "script": [
+      "'Thanks for the help.'",
+      "'What a sunset.'"
+    ]
+  },
+  {
+    "id": "compassion_vs_pity",
+    "left": "compassion",
+    "right": "pity",
+    "rule": "Compassion wants to help; pity looks down.",
+    "script": [
+      "Bring food to unhoused.",
+      "Shake head and pass by."
+    ]
+  },
+  {
+    "id": "excitement_vs_euphoria",
+    "left": "excitement",
+    "right": "euphoria",
+    "rule": "Excitement = high energy; Euphoria = extreme, brief bliss.",
+    "script": [
+      "Pre-concert buzz.",
+      "Lottery win."
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+WordNet 3.x – Princeton University, license permits commercial use.
+WordNet-Affect / WordNet Domains – CC BY 3.0. Include attribution on site.
